@@ -54,7 +54,7 @@ gdjs.PauseMenuCode.GDChar_9595FatimaObjects1= [];
 gdjs.PauseMenuCode.GDChar_9595FatimaObjects2= [];
 
 
-gdjs.PauseMenuCode.asyncCallback17429564 = function (runtimeScene, asyncObjectsList) {
+gdjs.PauseMenuCode.asyncCallback17521300 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.PauseMenuCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainMenu", false);
 }gdjs.PauseMenuCode.localVariables.length = 0;
@@ -68,14 +68,14 @@ gdjs.PauseMenuCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.PauseMenuCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.PauseMenuCode.asyncCallback17429564(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.PauseMenuCode.asyncCallback17521300(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.PauseMenuCode.asyncCallback17430356 = function (runtimeScene, asyncObjectsList) {
+};gdjs.PauseMenuCode.asyncCallback17522092 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.PauseMenuCode.localVariables);
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }gdjs.PauseMenuCode.localVariables.length = 0;
@@ -89,14 +89,14 @@ gdjs.PauseMenuCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.PauseMenuCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.PauseMenuCode.asyncCallback17430356(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.PauseMenuCode.asyncCallback17522092(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.PauseMenuCode.asyncCallback17431260 = function (runtimeScene, asyncObjectsList) {
+};gdjs.PauseMenuCode.asyncCallback17522996 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.PauseMenuCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LevelSelect", false);
 }gdjs.PauseMenuCode.localVariables.length = 0;
@@ -110,7 +110,7 @@ gdjs.PauseMenuCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.PauseMenuCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.PauseMenuCode.asyncCallback17431260(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.PauseMenuCode.asyncCallback17522996(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -141,9 +141,17 @@ gdjs.copyArray(runtimeScene.getObjects("FadeBG"), gdjs.PauseMenuCode.GDFadeBGObj
 
 let isConditionTrue_0 = false;
 {
+gdjs.copyArray(runtimeScene.getObjects("CoinsCollected"), gdjs.PauseMenuCode.GDCoinsCollectedObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DistanceMade"), gdjs.PauseMenuCode.GDDistanceMadeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("FadeBG"), gdjs.PauseMenuCode.GDFadeBGObjects1);
 {for(var i = 0, len = gdjs.PauseMenuCode.GDFadeBGObjects1.length ;i < len;++i) {
     gdjs.PauseMenuCode.GDFadeBGObjects1[i].getBehavior("Opacity").setOpacity(gdjs.PauseMenuCode.GDFadeBGObjects1[i].getBehavior("Opacity").getOpacity() - (5));
+}
+}{for(var i = 0, len = gdjs.PauseMenuCode.GDDistanceMadeObjects1.length ;i < len;++i) {
+    gdjs.PauseMenuCode.GDDistanceMadeObjects1[i].getBehavior("Text").setText(runtimeScene.getGame().getVariables().getFromIndex(3).getAsString());
+}
+}{for(var i = 0, len = gdjs.PauseMenuCode.GDCoinsCollectedObjects1.length ;i < len;++i) {
+    gdjs.PauseMenuCode.GDCoinsCollectedObjects1[i].getBehavior("Text").setText(runtimeScene.getGame().getVariables().getFromIndex(1).getAsString());
 }
 }}
 

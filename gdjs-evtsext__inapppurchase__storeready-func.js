@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__InAppPurchase__StoreReady !== "undefined") {
 gdjs.evtsExt__InAppPurchase__StoreReady = {};
 
 
-gdjs.evtsExt__InAppPurchase__StoreReady.userFunc0x132f668 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InAppPurchase__StoreReady.userFunc0xec1fd8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const variable = runtimeScene.getVariables().get("IAP_STORE_READY");
 
@@ -20,7 +20,7 @@ gdjs.evtsExt__InAppPurchase__StoreReady.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__InAppPurchase__StoreReady.userFunc0x132f668(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__InAppPurchase__StoreReady.userFunc0xec1fd8(runtimeScene, eventsFunctionContext);
 
 }
 

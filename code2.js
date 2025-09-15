@@ -62,7 +62,7 @@ gdjs.SidrIntroCode.GDChar_9595FatimaObjects2= [];
 gdjs.SidrIntroCode.GDChar_9595FatimaObjects3= [];
 
 
-gdjs.SidrIntroCode.asyncCallback9932828 = function (runtimeScene, asyncObjectsList) {
+gdjs.SidrIntroCode.asyncCallback16661468 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.SidrIntroCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "GameLogo", false);
 }gdjs.SidrIntroCode.localVariables.length = 0;
@@ -77,14 +77,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.SidrIntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SidrIntroCode.asyncCallback9932828(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.SidrIntroCode.asyncCallback16661468(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.SidrIntroCode.asyncCallback9932284 = function (runtimeScene, asyncObjectsList) {
+};gdjs.SidrIntroCode.asyncCallback16660924 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.SidrIntroCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("IntroSidr"), gdjs.SidrIntroCode.GDIntroSidrObjects2);
 {for(var i = 0, len = gdjs.SidrIntroCode.GDIntroSidrObjects2.length ;i < len;++i) {
@@ -104,7 +104,7 @@ gdjs.SidrIntroCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.SidrIntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.SidrIntroCode.asyncCallback9932284(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.SidrIntroCode.asyncCallback16660924(runtimeScene, asyncObjectsList)));
 }
 }
 

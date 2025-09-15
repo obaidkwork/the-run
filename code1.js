@@ -56,7 +56,7 @@ gdjs.AuthenticatePlayerCode.GDChar_9595FatimaObjects2= [];
 gdjs.AuthenticatePlayerCode.GDChar_9595FatimaObjects3= [];
 
 
-gdjs.AuthenticatePlayerCode.asyncCallback9942804 = function (runtimeScene, asyncObjectsList) {
+gdjs.AuthenticatePlayerCode.asyncCallback16640588 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.AuthenticatePlayerCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "SidrIntro", false);
 }gdjs.AuthenticatePlayerCode.localVariables.length = 0;
@@ -71,14 +71,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.AuthenticatePlayerCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.AuthenticatePlayerCode.asyncCallback9942804(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.AuthenticatePlayerCode.asyncCallback16640588(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.AuthenticatePlayerCode.asyncCallback9942916 = function (runtimeScene, asyncObjectsList) {
+};gdjs.AuthenticatePlayerCode.asyncCallback16640420 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.AuthenticatePlayerCode.localVariables);
 
 { //Subevents
@@ -94,7 +94,7 @@ gdjs.AuthenticatePlayerCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.AuthenticatePlayerCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.playerAuthentication.openAuthenticationWindow(runtimeScene), (runtimeScene) => (gdjs.AuthenticatePlayerCode.asyncCallback9942916(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.playerAuthentication.openAuthenticationWindow(runtimeScene), (runtimeScene) => (gdjs.AuthenticatePlayerCode.asyncCallback16640420(runtimeScene, asyncObjectsList)));
 }
 }
 

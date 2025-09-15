@@ -167,7 +167,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15971516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10321980);
 }
 }
 if (isConditionTrue_0) {
@@ -189,7 +189,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15662332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10323516);
 }
 }
 if (isConditionTrue_0) {
@@ -441,7 +441,7 @@ if (isConditionTrue_0) {
 };gdjs._49Code.mapOfGDgdjs_9546_959549Code_9546GDPlayerControllerObjects1Objects = Hashtable.newFrom({"PlayerController": gdjs._49Code.GDPlayerControllerObjects1});
 gdjs._49Code.mapOfGDgdjs_9546_959549Code_9546GDEnemyObjects1Objects = Hashtable.newFrom({"Enemy": gdjs._49Code.GDEnemyObjects1});
 gdjs._49Code.mapOfGDgdjs_9546_959549Code_9546GDDeathAnimationObjects1Objects = Hashtable.newFrom({"DeathAnimation": gdjs._49Code.GDDeathAnimationObjects1});
-gdjs._49Code.asyncCallback15778340 = function (runtimeScene, asyncObjectsList) {
+gdjs._49Code.asyncCallback10378108 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs._49Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("PlayerController"), gdjs._49Code.GDPlayerControllerObjects2);
 
@@ -461,7 +461,7 @@ gdjs._49Code.eventsList4 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs._49Code.localVariables);
 for (const obj of gdjs._49Code.GDPlayerControllerObjects1) asyncObjectsList.addObject("PlayerController", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs._49Code.asyncCallback15778340(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs._49Code.asyncCallback10378108(runtimeScene, asyncObjectsList)));
 }
 }
 

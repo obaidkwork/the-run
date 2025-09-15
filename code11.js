@@ -56,7 +56,7 @@ gdjs.Lvl2_95GameOverMenuCode.GDChar_9595FatimaObjects1= [];
 gdjs.Lvl2_95GameOverMenuCode.GDChar_9595FatimaObjects2= [];
 
 
-gdjs.Lvl2_95GameOverMenuCode.asyncCallback17552100 = function (runtimeScene, asyncObjectsList) {
+gdjs.Lvl2_95GameOverMenuCode.asyncCallback17644500 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Lvl2_95GameOverMenuCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainMenu", false);
 }gdjs.Lvl2_95GameOverMenuCode.localVariables.length = 0;
@@ -70,14 +70,14 @@ gdjs.Lvl2_95GameOverMenuCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Lvl2_95GameOverMenuCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl2_95GameOverMenuCode.asyncCallback17552100(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl2_95GameOverMenuCode.asyncCallback17644500(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Lvl2_95GameOverMenuCode.asyncCallback17553060 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Lvl2_95GameOverMenuCode.asyncCallback17645460 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Lvl2_95GameOverMenuCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "2", false);
 }gdjs.Lvl2_95GameOverMenuCode.localVariables.length = 0;
@@ -91,14 +91,14 @@ gdjs.Lvl2_95GameOverMenuCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Lvl2_95GameOverMenuCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl2_95GameOverMenuCode.asyncCallback17553060(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl2_95GameOverMenuCode.asyncCallback17645460(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Lvl2_95GameOverMenuCode.asyncCallback17554196 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Lvl2_95GameOverMenuCode.asyncCallback17646596 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Lvl2_95GameOverMenuCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Shop", false);
 }gdjs.Lvl2_95GameOverMenuCode.localVariables.length = 0;
@@ -112,14 +112,14 @@ gdjs.Lvl2_95GameOverMenuCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Lvl2_95GameOverMenuCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl2_95GameOverMenuCode.asyncCallback17554196(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl2_95GameOverMenuCode.asyncCallback17646596(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Lvl2_95GameOverMenuCode.asyncCallback17555228 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Lvl2_95GameOverMenuCode.asyncCallback17647628 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Lvl2_95GameOverMenuCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "LevelSelect", false);
 }gdjs.Lvl2_95GameOverMenuCode.localVariables.length = 0;
@@ -133,7 +133,7 @@ gdjs.Lvl2_95GameOverMenuCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Lvl2_95GameOverMenuCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl2_95GameOverMenuCode.asyncCallback17555228(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Lvl2_95GameOverMenuCode.asyncCallback17647628(runtimeScene, asyncObjectsList)));
 }
 }
 

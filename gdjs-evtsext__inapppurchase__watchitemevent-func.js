@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__InAppPurchase__WatchItemEvent !== "undefined") {
 gdjs.evtsExt__InAppPurchase__WatchItemEvent = {};
 
 
-gdjs.evtsExt__InAppPurchase__WatchItemEvent.userFunc0x132f7b8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InAppPurchase__WatchItemEvent.userFunc0xec27f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if(!window.CdvPurchase || !window.CdvPurchase.store) return;
 const store = window.CdvPurchase.store;
@@ -47,7 +47,7 @@ gdjs.evtsExt__InAppPurchase__WatchItemEvent.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__InAppPurchase__WatchItemEvent.userFunc0x132f7b8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__InAppPurchase__WatchItemEvent.userFunc0xec27f8(runtimeScene, eventsFunctionContext);
 
 }
 

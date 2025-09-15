@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ShockWaveEffect__RgbMean !== "undefined") {
 gdjs.evtsExt__ShockWaveEffect__RgbMean = {};
 
 
-gdjs.evtsExt__ShockWaveEffect__RgbMean.userFunc0x14ccc20 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ShockWaveEffect__RgbMean.userFunc0xec4780 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 try {
     // split do allocations, but the code a lot simpler this way.
@@ -38,7 +38,7 @@ gdjs.evtsExt__ShockWaveEffect__RgbMean.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__ShockWaveEffect__RgbMean.userFunc0x14ccc20(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ShockWaveEffect__RgbMean.userFunc0xec4780(runtimeScene, eventsFunctionContext);
 
 }
 

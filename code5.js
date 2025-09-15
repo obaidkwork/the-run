@@ -46,7 +46,7 @@ gdjs.CreditCode.GDChar_9595FatimaObjects1= [];
 gdjs.CreditCode.GDChar_9595FatimaObjects2= [];
 
 
-gdjs.CreditCode.asyncCallback17218948 = function (runtimeScene, asyncObjectsList) {
+gdjs.CreditCode.asyncCallback16417012 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.CreditCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("InfoGame"), gdjs.CreditCode.GDInfoGameObjects2);
 {for(var i = 0, len = gdjs.CreditCode.GDInfoGameObjects2.length ;i < len;++i) {
@@ -63,14 +63,14 @@ gdjs.CreditCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.CreditCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.CreditCode.asyncCallback17218948(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.CreditCode.asyncCallback16417012(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.CreditCode.asyncCallback17220212 = function (runtimeScene, asyncObjectsList) {
+};gdjs.CreditCode.asyncCallback16419236 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.CreditCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainMenu", false);
 }gdjs.CreditCode.localVariables.length = 0;
@@ -84,7 +84,7 @@ gdjs.CreditCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.CreditCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.CreditCode.asyncCallback17220212(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.CreditCode.asyncCallback16419236(runtimeScene, asyncObjectsList)));
 }
 }
 

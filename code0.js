@@ -90,9 +90,9 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.IntroCode.asyncCallback9951700 = function (runtimeScene, asyncObjectsList) {
+};gdjs.IntroCode.asyncCallback16615428 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.IntroCode.localVariables);
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "AuthenticatePlayer", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "SidrIntro", false);
 }gdjs.IntroCode.localVariables.length = 0;
 }
 gdjs.IntroCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
@@ -105,14 +105,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.IntroCode.asyncCallback9951700(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.IntroCode.asyncCallback16615428(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.IntroCode.asyncCallback9951308 = function (runtimeScene, asyncObjectsList) {
+};gdjs.IntroCode.asyncCallback16614908 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.IntroCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("IntroIcon"), gdjs.IntroCode.GDIntroIconObjects2);
 {for(var i = 0, len = gdjs.IntroCode.GDIntroIconObjects2.length ;i < len;++i) {
@@ -132,7 +132,7 @@ gdjs.IntroCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.IntroCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.IntroCode.asyncCallback9951308(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.IntroCode.asyncCallback16614908(runtimeScene, asyncObjectsList)));
 }
 }
 

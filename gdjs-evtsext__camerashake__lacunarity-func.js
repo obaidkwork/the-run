@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CameraShake__Lacunarity !== "undefined") {
 gdjs.evtsExt__CameraShake__Lacunarity = {};
 
 
-gdjs.evtsExt__CameraShake__Lacunarity.userFunc0x16536f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CameraShake__Lacunarity.userFunc0x126a8f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const name = eventsFunctionContext.getArgument("Name");
 
@@ -19,7 +19,7 @@ gdjs.evtsExt__CameraShake__Lacunarity.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__CameraShake__Lacunarity.userFunc0x16536f8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__CameraShake__Lacunarity.userFunc0x126a8f8(runtimeScene, eventsFunctionContext);
 
 }
 

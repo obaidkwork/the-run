@@ -62,7 +62,7 @@ gdjs.GameLogoCode.GDChar_9595FatimaObjects2= [];
 gdjs.GameLogoCode.GDChar_9595FatimaObjects3= [];
 
 
-gdjs.GameLogoCode.asyncCallback9852092 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameLogoCode.asyncCallback16692116 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GameLogoCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MainMenu", false);
 }gdjs.GameLogoCode.localVariables.length = 0;
@@ -77,14 +77,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GameLogoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameLogoCode.asyncCallback9852092(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.GameLogoCode.asyncCallback16692116(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.GameLogoCode.asyncCallback9851548 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameLogoCode.asyncCallback16691572 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GameLogoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("IntroGame"), gdjs.GameLogoCode.GDIntroGameObjects2);
 {for(var i = 0, len = gdjs.GameLogoCode.GDIntroGameObjects2.length ;i < len;++i) {
@@ -104,7 +104,7 @@ gdjs.GameLogoCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GameLogoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameLogoCode.asyncCallback9851548(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameLogoCode.asyncCallback16691572(runtimeScene, asyncObjectsList)));
 }
 }
 
